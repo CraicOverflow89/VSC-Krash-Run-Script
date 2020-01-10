@@ -20,14 +20,24 @@
 		"Programming Languages"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.krashRunScript",
+		"onCommand:extension.krashRunShell",
+		"onCommand:extension.krashSetPath"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"command": "extension.krashRunScript",
+				"title": "Krash: Run Script"
+			},
+			{
+				"command": "extension.krashRunShell",
+				"title": "Krash: Run Shell"
+			},
+			{
+				"command": "extension.krashSetPath",
+				"title": "Krash: Set Executable Path"
 			}
 		]
 	},

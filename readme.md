@@ -1,7 +1,7 @@
 Krash Run Script
 ================
 
-Provides quick access to execute krash script in VS Code.
+Provides quick access to execute script and shell in VS Code.
 
 ### Tasks
 
