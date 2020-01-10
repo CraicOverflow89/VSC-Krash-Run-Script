@@ -5,7 +5,6 @@ Provides quick access to execute script and shell in VS Code.
 
 ### Tasks
 
- - run command
  - create icon
 
 ### See Also
